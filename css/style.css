@@ -106,12 +106,12 @@ section.quemestaassistindo {
   box-shadow: inset 0 0 0 5px rgba(251, 6, 174, 0.9);
 }
 
-.membros a .btn-user:nth-child(1) {
-  background-image: url("/imagens/user-1.png");
+.membros .btn-user:nth-child(1) {
+  background-image: url("imagens/user-1.png");
 }
 
-.membros a .btn-user:nth-child(2) {
-  background-image: url("/imagens/user-2.png");
+.membros .btn-user:nth-child(2) {
+  background-image: url("imagens/user-2.png");
 }
 .btn-adduser {
   width: 100px;
@@ -177,40 +177,37 @@ footer {
     rgba(3, 3, 3, 0.253) 100%
   );
 }
-.main-footer{
+.main-footer {
   display: flex;
   color: #fff;
-  
 }
-.main-footer .box{
+.main-footer .box {
   flex-basis: 50%;
   padding: 10px 20px;
-  
 }
-.box .cont-footer{
- margin: 20px 0 0 0;
+.box .cont-footer {
+  margin: 20px 0 0 0;
 }
-.box .cont-footer p{
+.box .cont-footer p {
   font-size: 14px;
 }
 
-.social-media a{
+.social-media a {
   margin: 20 px 0 0 0;
   padding: 0 2px;
   text-decoration: none;
   color: aliceblue;
 }
-.box .social-media a span{
+.box .social-media a span {
   padding: 6px 6px;
   text-align: center;
   align-items: center;
   border-radius: 50%;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-.box .social-media a span:hover{
-background-color: black;
+.box .social-media a span:hover {
+  background-color: black;
 }
-
 
 .select {
   margin-right: 20%;
@@ -437,7 +434,6 @@ main {
   width: 100%;
   height: 500px;
   padding: 20px;
-
 }
 
 .list-item {
@@ -446,7 +442,6 @@ main {
   justify-content: center;
   margin-top: 90px;
   transition: all 1s ease-in-out;
- 
 }
 
 .list-item .img-list {
@@ -669,8 +664,6 @@ h4 {
 .elenco p {
   color: #fff;
   font-size: 15px;
-  
-  
 }
 
 .infos {
@@ -680,7 +673,6 @@ h4 {
   margin-left: 2%;
   height: 800px;
   margin-bottom: 50px;
-  
 }
 
 @keyframes modal {
@@ -730,13 +722,12 @@ h4 {
     height: 50%;
     bottom: 0;
   }
-  
+
   /*Index*/
 
   .menu-principal {
     display: none;
     flex-wrap: wrap;
-    
   }
 
   .menu-principal ul {
@@ -837,7 +828,6 @@ h4 {
     max-width: 250px;
     justify-content: center;
     align-items: center;
-  
   }
 
   .movies-list-container {
