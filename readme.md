@@ -1,1 +1,1 @@
-Exesrcício feito para o checkpoint-2 Front End1
+Exercício feito para o checkpoint-2 Front End1
